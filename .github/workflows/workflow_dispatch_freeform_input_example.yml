@@ -1,0 +1,15 @@
+name: Workflow Dispatch Freeform Input Example
+
+on:
+  workflow_dispatch:
+    inputs:
+      example_input:
+        description: 'An example freeform input'
+        required: true
+        default: 'Hello, World!'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "We did the thing!"
