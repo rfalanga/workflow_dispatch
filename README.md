@@ -19,3 +19,7 @@ https://github.com/goobar-dev/github-actions-tutorials
 ## Note: about the Environment Input
 
 The Environment Input will display all environments which have been created in the repo. Developers may create their own environments, which may **not** have all the environmental variables your workflow is expecting. Keep that in mind.
+
+## Multiple Inputs
+
+The multiple inputs workflow, workflow_dispatch_multiple_input_example.yml, has multiple inputs. The first is the environment from the previous example. The second is a Boolean value for specifying if we want to notify people, using something like Slack or Microsoft Teams. Since this is an example app, no such notification is done, but you get the idea.
