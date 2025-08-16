@@ -15,3 +15,7 @@ Fleible Workflows
 ## goobar's repo for this tutorial
 
 https://github.com/goobar-dev/github-actions-tutorials 
+
+## Note: about the Environment Input
+
+The Environment Input will display all environments which have been created in the repo. Developers may create their own environments, which may **not** have all the environmental variables your workflow is expecting. Keep that in mind.
